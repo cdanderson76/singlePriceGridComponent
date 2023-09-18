@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Flex Container */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+  border: 1px, solid, black;
+}
+
+/* Join Our Community Box */
+
+.community-box {
+  width: 348px;
+  height: 260px;
+  background-color: white;
+  border-radius: 8px 8px 0 0;
+  background-color: hsl(204, 43%, 93%);
+  display: block;
+  padding-top: 22px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.thirtyday {
+  margin-right: 40px;
+}
+
+.gain-access {
+  font-family: 'Karla', sans-serif;
+  color: #9AA7BE;
+  font-weight: lighter;
+  line-height: 28px;
+  font-weight: 350;
+}
+
+.community-box h2 {
+  font-family: 'Karla', sans-serif;
+  margin: 18px, 0, 0, 0;
+  color: hsl(179, 62%, 43%);
+  font-size: 20px;
+}
+
+p {
+  margin-top: 18px;
+  font-family: 'Karla', sans-serif;
+  color: #C0DF33;
+}
+
+/* Monthly Subscription Box */
+
+.monthly-subscription-box {
+  min-width: 348px;
+  min-height: 240px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.monthly-subscription-box h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 350;
+  font-size: 20px;
+  color: hsl(204, 43%, 93%);
+  margin: 18px, 0, 0, 0;
+  padding-top: 22px;
+  padding-left: 20px;
+}
+
+.span-dollars {
+  color: hsl(204, 43%, 93%);
+  font-size: 33px;
+  font-weight: 400;
+  margin-left: 18px;
+  padding-top: 10px;
+}
+
+.span-months {
+  font-size: 19px;
+  line-height: 5px;
+  padding-left: 13px;
+  color: #cdd9ee;
+  padding-top: 20px;
+}
+
+.full-access {
+  font-family: 'Karla', sans-serif;
+  color: hsl(204, 43%, 93%);
+  font-weight: lighter;
+  line-height: 28px;
+  font-weight: 160;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-top: 8px;
+}
+
+.sign-up {
+  width: 308px;
+  height: 48px;
+  text-align: center;
+  padding-top: 14px;
+  margin-left: 20px;
+  margin-right: 14px;
+  margin-top: 14px;
+  background-color: #C0DF33;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px 0px rgba(10,124,122,0.2);
+}
+
+/* Why Us Box */
+
+.why-us-box {
+  display: block;
+  width: 348px;
+  height: 260px;
+  letter-spacing: 1px;
+  border-radius: 0 0 8px 8px;
+  background-color: #4cbbb9;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+}
+
+.why-us-box-para {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-weight: 160;
+  font-size: 17px;
+  margin-bottom: 2px;
+  margin-top: 3px;
+}
+
+.community-box, .why-us-box, .monthly-subscription-box {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+}
+
+@media(min-width: 700px) {
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+}
+
+.gain-access {
+  margin-right: 35px;
+}
+
+.bottom-container {
+  display: flex;
+  width: 635px;
+  height: 216px;
+  border: 2px, solid, black;
+}
+
+.community-box {
+  width: 635px;
+  height: 193px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px 8px 0 0;
+  background-color: hsl(204, 43%, 93%);
+  padding-top: 22px;
+  padding-left: 20px;
+  margin-left: 0;
+  margin-top: 7%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  }
+
+.why-us-box {
+  display: block;
+  min-width: 317.5px;
+  height: 282px;
+  letter-spacing: 1px;
+  border-radius: 0 0 8px 0;
+  background-color: #4cbbb9;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+
+}
+
+.monthly-subscription-box {
+  min-width: 317.5px;
+  border-radius: 0 0 0 8px;
+  height: 282px;
+  padding-top: 13px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+}
+  
+.why-us-box-para {
+  font-family: 'Karla', sans-serif;
+  color: #cdd9ee;
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: -3px;
+  line-height: 23px;
+  }
+
+.sign-up {
+  max-width: 276px;
+  text-align: center;
+}
+
+.sign-up:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(238, 240, 233, 0.50);
+}
+
+.sign-up {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: #C0DF33;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+} 
