@@ -15,7 +15,6 @@
   justify-content: center;
   align-items: center;
   padding: 7%;
-  border: 1px, solid, black;
 }
 
 /* Join Our Community Box */
@@ -170,7 +169,6 @@ p {
   display: flex;
   width: 635px;
   height: 216px;
-  border: 2px, solid, black;
 }
 
 .community-box {
